@@ -1,132 +1,96 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-   <meta charset="UTF-8" />
-   <meta name="description" content="Personal portfolio homepage" />
-   <meta name="keywords" content="portfolio, projects, contact, web design" />
-   <meta name="author" content="Kyrsten Stewart" />
-   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-   <title>My Homepage</title>
-</head>
-
-<body>
-
-   <header>
-      <h1>Welcome to My Homepage</h1>
-
-      <nav>
-         <ul>
-            <li><a href="#about">About</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#contact">Contact</a></li>
-         </ul>
-      </nav>
-   </header>
-
-   <main>
-
-      <section id="about">
-         <header>
-            <h2>About</h2>
-         </header>
-
-         <p>
-            Welcome to my personal website. This section shares information about my background,
-            interests, and goals in web development and technology.
-         </p>
-      </section>
-
-      <section id="projects">
-         <header>
-            <h2>Projects</h2>
-         </header>
-
-         <p>
-            You can explore different projects I have worked on.
-         </p>
-      </section>
-
-      <section id="contact">
-         <header>
-            <h2>Contact</h2>
-         </header>
-
-         <p>
-            Feel free to contact me through email or social media for collaboration or questions.
-         </p>
-      </section>
-
-   </main>
-
-   <footer>
-      <p>&copy; 2026 Kyrsten Stewart. All Rights Reserved.</p>
-   </footer>
-
-</body>
-
-</html>
-
-
 body {
-margin: 0;
-font-family: Arial, Helvetica, sans-serif;
-background: linear-gradient(to bottom, #f4f4f4, #dbeafe);
-color: #333
+   background-color: #f2f2f2;
+   font-family: Arial, sans-serif;
+   margin: 0;
+   padding: 0;
 }
 
-header h1 {
-font-size: 2.5rem;
-font-weight: bold;
-margin: 0; 
+header {
+   text-align: center;
+   padding: 20px;
 }
+
 
 nav ul {
-list-style-type: none;
-display: flex;
-justify-content: center;
-gap: 20 px;
-padding: 0;
-margin-top: 15px;
+   display: flex;
+   justify-content: center;
+   list-style: none;
+   padding: 0;
+}
+
+nav li {
+   margin: 0 15px;
 }
 
 nav a {
-text-decoration: none;
-color: white;
-padding: 10px 15px;
-border-radius: 5px;
-transition: background-color 0.3s, color 0.3s
+   display: block;
+   background-color: #333;
+   color: white;
+   padding: 12px 20px;
+   text-decoration: none;
+   border-radius: 4px;
+
+   transition: background-color 0.3s;
 }
 
 nav a:hover {
-   background-color: white;
-   color: #2563eb;
+   background-color: #555;
 }
 
-/* Main Sections */
 main {
-padding: 2-px;
+   max-width: 960px;
+   margin: auto;
 }
+
 
 section {
-background-color: white; 
-margin: 20px 0;
-padding: 20px;
-border-radius: 10px;
-box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+   background-color: white;
+   padding: 20px;
+   margin: 20px 0;
+
+   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+
+   transition: transform 0.3s;
 }
 
-/* Section Header */
-section h2 {
-color: #2363eb;
+section:hover {
+   transform: scale(1.02);
 }
 
-/* Footer */
+table {
+   width: 100%;
+   border-collapse: collapse;
+}
+
+caption {
+   font-size: 1.2em;
+   font-weight: bold;
+   margin-bottom: 10px;
+}
+
+.highlightCol {
+   background-color: #f9f9f9;
+}
+
+th,
+td {
+   border: 1px solid #ccc;
+   padding: 12px;
+   text-align: left;
+}
+
+thead {
+   background-color: #444;
+   color: white;
+}
+
+tfoot td {
+   text-align: center;
+   font-style: italic;
+   border-top: 1px solid #ccc;
+}
+
 footer {
-text-align: center;
-background-color: #111827;
-color: white;
-padding: 15px;
-font-size: 0.5rem;
+   text-align: center;
+   padding: 20px;
 }
