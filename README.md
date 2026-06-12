@@ -1,3 +1,44 @@
+# Kyrsten Stewart Portfolio
+
+This project is a personal portfolio website created using HTML5 and CSS3. This website is an online portfolio to showcase projects and allow visitors to view content.
+
+## Table of Contents
+
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
+
+
+    ```bash
+# Example command
+git clone https://github.com/Kyrste9128/repository.git
+    ```
+
+## Usage
+
+zHOME: Breif introduction to the owner of portfolio
+PORJECT: Project includes names, descriptions, and project additions.
+CONTACT: Visitors can view contact information.
+
+Technologies used: 
+HTML5
+CSS3
+Responsive Design
+
+
+    ```html
+<!-- Example HTML code -->
+<section id="about">
+  <h2>About Me</h2>
+  <p>Welcome to my personal website.</p> </section>
+## Contributing
+
+Guidelines for how others can contribute to your project.
+
+## License
+
+2026 Kyrsten Stewart. All Rights Reserved.
 # Kyrste9128.github.io
 
 body {
